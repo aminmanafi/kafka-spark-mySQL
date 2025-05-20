@@ -1,5 +1,5 @@
 spark = {
-    "appName" : "project4"
+    "appName" : "V1.2"
 }
 
 kafka = {

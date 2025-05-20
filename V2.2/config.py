@@ -1,5 +1,5 @@
 spark = {
-    "appName" : "V2.1",
+    "appName" : "V2.2",
     "master" : "local[*]"
 }
 
@@ -25,7 +25,12 @@ data = {
 #   "topic2": { "table": "topic2_table" }
 # }
 
-schema = {
-    "topic1": ["id", "name", "dep_id"],
-    "topic2": ["dep_id", "city"]
+# schema = {
+#     "topic1": ["id", "name", "dep_id"],
+#     "topic2": ["dep_id", "city"]
+# }
+
+
+ext_columns = {
+    "sha1" : "SHA1(name)",
 }
